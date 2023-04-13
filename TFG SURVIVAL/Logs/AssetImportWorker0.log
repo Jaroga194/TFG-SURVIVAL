@@ -1,0 +1,1085 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jarg9/OneDrive/Documentos/GitHub/TFG-SURVIVAL/TFG SURVIVAL
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50013
+Successfully changed project path to: C:/Users/jarg9/OneDrive/Documentos/GitHub/TFG-SURVIVAL/TFG SURVIVAL
+C:/Users/jarg9/OneDrive/Documentos/GitHub/TFG-SURVIVAL/TFG SURVIVAL
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11164] Host "[IP] 192.168.100.253 [Port] 0 [Flags] 2 [Guid] 2414105096 [EditorId] 2414105096 [Version] 1048832 [Id] WindowsEditor(7,JoseAntonioRG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11164] Host "[IP] 192.168.100.253 [Port] 0 [Flags] 2 [Guid] 2414105096 [EditorId] 2414105096 [Version] 1048832 [Id] WindowsEditor(7,JoseAntonioRG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 71.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jarg9/OneDrive/Documentos/GitHub/TFG-SURVIVAL/TFG SURVIVAL/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2979 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004983 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (533ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jarg9\OneDrive\Documentos\GitHub\TFG-SURVIVAL\TFG SURVIVAL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jarg9\OneDrive\Documentos\GitHub\TFG-SURVIVAL\TFG SURVIVAL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (628ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.3 KB). Loaded Objects now: 3507.
+Memory consumption went from 107.5 MB to 107.4 MB.
+Total: 2.789500 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.202100 ms MarkObjects: 2.252600 ms  DeleteObjects: 0.086200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 273.526003 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Steps.prefab
+  artifactKey: Guid(3895f2e0ac588634bbb165870e16bcb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Steps.prefab using Guid(3895f2e0ac588634bbb165870e16bcb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53c1e8739df9101bc23f89262e146223') in 0.100882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat_paddle.prefab
+  artifactKey: Guid(7fa9d8eb01cdfa249b9c99a66ba8d3b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat_paddle.prefab using Guid(7fa9d8eb01cdfa249b9c99a66ba8d3b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47a684ec41b98065b1e9b38e65f632f0') in 0.015362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Bucket1.prefab
+  artifactKey: Guid(9fd619153a6632e448d62abdb23fa7f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Bucket1.prefab using Guid(9fd619153a6632e448d62abdb23fa7f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94a6c9bd8340d62575906a5c1f77edc7') in 0.013430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_Sreenshotes(1).PNG
+  artifactKey: Guid(9bc9a7311032c0343aebfb4b0bcddc9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_Sreenshotes(1).PNG using Guid(9bc9a7311032c0343aebfb4b0bcddc9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32d81fc6da25e528bbb02a48ad5debf0') in 0.045256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ARSH Studios/Assets/Material/outUV_colour.mat
+  artifactKey: Guid(6ab302d09884d084893199b137fde8b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Material/outUV_colour.mat using Guid(6ab302d09884d084893199b137fde8b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7b0be07c6909c9fdf879f816b5fb314') in 0.035509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Woodan_Door1.prefab
+  artifactKey: Guid(de1686c8d1dfb5947a3cda205596e279) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Woodan_Door1.prefab using Guid(de1686c8d1dfb5947a3cda205596e279) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '036dba376796b8c32b994550143c069c') in 0.013300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Brickes1.prefab
+  artifactKey: Guid(21a624da42d451c458aae80d82b82c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Brickes1.prefab using Guid(21a624da42d451c458aae80d82b82c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a5c162f4c76724c0af0f249cbb54956') in 0.011108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat.prefab
+  artifactKey: Guid(d46fbda4f04985547b45fa324d08dd7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat.prefab using Guid(d46fbda4f04985547b45fa324d08dd7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46722d8621575ad2307b9506cc8aae8c') in 0.007365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Handle.prefab
+  artifactKey: Guid(b817c4a5a762fa04eb4bffe141416009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Handle.prefab using Guid(b817c4a5a762fa04eb4bffe141416009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cb7aa4c19ec36366dd4f1f4b41bc30c') in 0.012139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Texture/outUV_colour.jpg
+  artifactKey: Guid(19321988999c5ad4d8d1206cd921a263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Texture/outUV_colour.jpg using Guid(19321988999c5ad4d8d1206cd921a263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85a827c6b7b2b253643ae859bc83fbd3') in 0.013450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Steps_Greel 1.prefab
+  artifactKey: Guid(d668a46dbe75bfc4d9efc2f34abe669b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Steps_Greel 1.prefab using Guid(d668a46dbe75bfc4d9efc2f34abe669b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b080983c0352814174232890598d46a9') in 0.010516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/All_in_one/Low_Poly_Boat_Yard.prefab
+  artifactKey: Guid(99a8c38a09f90224f8ccea4c2b9ead27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/All_in_one/Low_Poly_Boat_Yard.prefab using Guid(99a8c38a09f90224f8ccea4c2b9ead27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce925d9c60086e1837f3a2b65d969bc3') in 0.021954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Handle1.prefab
+  artifactKey: Guid(b527109e92da47545b30b1b894e319c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Handle1.prefab using Guid(b527109e92da47545b30b1b894e319c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b459c1dad31733fd59421bdc3e0a2e3a') in 0.012634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ARSH Studios/Assets/Mesh/Materials/outUV_colour(8).mat
+  artifactKey: Guid(ae6610c953d5d374dbfcf8194fa2d3ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Mesh/Materials/outUV_colour(8).mat using Guid(ae6610c953d5d374dbfcf8194fa2d3ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd93bbdcefcf738ff6c42a4ea804f631e') in 0.009217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat1.prefab
+  artifactKey: Guid(d41801ef0febf7b4cab9648dbb09276e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat1.prefab using Guid(d41801ef0febf7b4cab9648dbb09276e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbd0040b0ea1870a34806bb33c910c21') in 0.006703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_image.PNG
+  artifactKey: Guid(e782417e442afb24f83aea96359284c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_image.PNG using Guid(e782417e442afb24f83aea96359284c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4b6fb0e1ad56730191039aa78a05d04') in 0.018264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/House.prefab
+  artifactKey: Guid(75283cc956b8bd04fbe323baf557156a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/House.prefab using Guid(75283cc956b8bd04fbe323baf557156a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62e59889bdd93b492480f2bfbb3e96d3') in 0.009868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Brickes.prefab
+  artifactKey: Guid(42daddfc3afc8d7428271ece435e79d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Brickes.prefab using Guid(42daddfc3afc8d7428271ece435e79d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e19cb85a941ce9a228141447086effe') in 0.010838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ARSH Studios/Assets/Mesh/Low_Poly_Boat_Yard.fbx
+  artifactKey: Guid(b336c09f45dc3df458ddd8065bbe4b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Mesh/Low_Poly_Boat_Yard.fbx using Guid(b336c09f45dc3df458ddd8065bbe4b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '960a9b98702a804688b30ce447e6f9c3') in 0.115080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Ground.prefab
+  artifactKey: Guid(ed7e753dbb4fd754dab77fc1c583b370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Ground.prefab using Guid(ed7e753dbb4fd754dab77fc1c583b370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0f47f84a48a0a9105f522f560d8bf5b') in 0.013434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Tree.prefab
+  artifactKey: Guid(7596bd42e70ca2044a2963c1e008e849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Tree.prefab using Guid(7596bd42e70ca2044a2963c1e008e849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf5ad215b0af137eb48d7cd2ab157eeb') in 0.006541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Plant3.prefab
+  artifactKey: Guid(647cad32dbb0b5141ae277add1a1147c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Plant3.prefab using Guid(647cad32dbb0b5141ae277add1a1147c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5eb04b67d9b0dc7a7e9636db6c31deb') in 0.008303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Handle2.prefab
+  artifactKey: Guid(0b479ce6d3e899b42a948cdd29b08fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Handle2.prefab using Guid(0b479ce6d3e899b42a948cdd29b08fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd89d3e030587fc30c0bf66ef9d211799') in 0.012200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ARSH Studios/Documentation/Low_Poly_Boat_Yard_doc.docx
+  artifactKey: Guid(936601dd7aa59394eb72e67f8c72626a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Documentation/Low_Poly_Boat_Yard_doc.docx using Guid(936601dd7aa59394eb72e67f8c72626a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e6b5ef55c7346afc98b9cca034af1bf') in 0.011255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Yard.prefab
+  artifactKey: Guid(93a098cd0b1bf9f4d9fdd0930309dd68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Yard.prefab using Guid(93a098cd0b1bf9f4d9fdd0930309dd68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8fcf36253394155d16cd02a85c988d0') in 0.013001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/project_01.unity
+  artifactKey: Guid(12b48b013f240bd40ba1cee39a6c8eb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/project_01.unity using Guid(12b48b013f240bd40ba1cee39a6c8eb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7236831b8224cd57a042fced6863da1') in 0.005863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Brickes3.prefab
+  artifactKey: Guid(174d9a7bbf457e34780cb9d32c5acdf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Brickes3.prefab using Guid(174d9a7bbf457e34780cb9d32c5acdf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c986039e184e90ae43031186c1192c25') in 0.010726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Plant.prefab
+  artifactKey: Guid(beaadbc67954a934196063738cba42d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Plant.prefab using Guid(beaadbc67954a934196063738cba42d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21e032294d9ed9eb74875feb82e7fdd6') in 0.010318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Plant2.prefab
+  artifactKey: Guid(28da73ed10cf6874084a954d39f75b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Plant2.prefab using Guid(28da73ed10cf6874084a954d39f75b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cbff34d9e32cc8a9f1553e06a47d905') in 0.008367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Woodan_Barks.prefab
+  artifactKey: Guid(2785049bf1c90234dba82ae6a08d94d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Woodan_Barks.prefab using Guid(2785049bf1c90234dba82ae6a08d94d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e8abea9d81e43932db241b2ccf4f80a') in 0.011328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_(1).PNG
+  artifactKey: Guid(2f60676c0df5e9946b24233b6a6585a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_(1).PNG using Guid(2f60676c0df5e9946b24233b6a6585a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ec02782cc2804b0ea236b3a5feccd9b') in 0.018107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9a3c70f5b62329246f626cde2da497e') in 0.005713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Bucket.prefab
+  artifactKey: Guid(1c9e94cfdd6d4604cbea84829b5accae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Bucket.prefab using Guid(1c9e94cfdd6d4604cbea84829b5accae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6606674ef698520788dafe50759c2cbd') in 0.011278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Wall.prefab
+  artifactKey: Guid(f91101dd41ace7744a8ec0f22e3140d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Wall.prefab using Guid(f91101dd41ace7744a8ec0f22e3140d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59e4c7aff10b8f8920a1a132dedaa637') in 0.009579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Brickes2.prefab
+  artifactKey: Guid(2c68c593f844c1d4cb608a0db7feb12d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Brickes2.prefab using Guid(2c68c593f844c1d4cb608a0db7feb12d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b39e34d69a1d87cd2a4b15899e71bd60') in 0.010884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Trees.prefab
+  artifactKey: Guid(1b045aea8eac2e64e8aa2530d576d5e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Trees.prefab using Guid(1b045aea8eac2e64e8aa2530d576d5e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca3408b50ca6d0e29ea296057b7155a3') in 0.013144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Mesh/Low_Poly_Boat_Yard.fbm/outUV_colour(8).jpg
+  artifactKey: Guid(63f374dddcbc65445834c6e74c4d0d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Mesh/Low_Poly_Boat_Yard.fbm/outUV_colour(8).jpg using Guid(63f374dddcbc65445834c6e74c4d0d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5442b8720b8a7bfeaff65c9a64e37bfa') in 0.014504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Woodan_Door.prefab
+  artifactKey: Guid(699e344796eb4d84e85941de5a681041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Woodan_Door.prefab using Guid(699e344796eb4d84e85941de5a681041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f47fa30690c450d052a34009141e465') in 0.012526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Woodan_Barks1.prefab
+  artifactKey: Guid(92e60438719f9be4aa64d0a294743201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Woodan_Barks1.prefab using Guid(92e60438719f9be4aa64d0a294743201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '965ad892c5a3e6e0096cf1caf99d5fb0') in 0.010722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat_paddle1.prefab
+  artifactKey: Guid(b293a4b04f146b74d9478aa5d72e0dfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat_paddle1.prefab using Guid(b293a4b04f146b74d9478aa5d72e0dfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66a9802b94eeb0933fbe94bd423c9fd0') in 0.012958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Tree2.prefab
+  artifactKey: Guid(f162b275151ccbb4da204b305b20d1e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Tree2.prefab using Guid(f162b275151ccbb4da204b305b20d1e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed7600472e61093b6e977f72eb90dc43') in 0.007075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat_paddle2.prefab
+  artifactKey: Guid(27f936bf3b479504eb87ddc5158f673f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Assets/Prefabs/Single_objects/Boat_paddle2.prefab using Guid(27f936bf3b479504eb87ddc5158f673f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e53c4a42e41d1fec7d25eca04d332cd') in 0.012113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_Sreenshotes.PNG
+  artifactKey: Guid(f94cd28ea79e69244b1879e368fb6485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_Sreenshotes.PNG using Guid(f94cd28ea79e69244b1879e368fb6485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c826e1336e35fd078aa5b7c416f1d192') in 0.018791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.497821 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/project_01.unity
+  artifactKey: Guid(12b48b013f240bd40ba1cee39a6c8eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/project_01.unity using Guid(12b48b013f240bd40ba1cee39a6c8eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb6a3030113ef5eeefc58ce260669f7') in 0.004890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ARSH Studios/Documentation/Low_Poly_Boat_Yard_doc.docx
+  artifactKey: Guid(936601dd7aa59394eb72e67f8c72626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Documentation/Low_Poly_Boat_Yard_doc.docx using Guid(936601dd7aa59394eb72e67f8c72626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf3d65b30563bdee7ae3d152979f043') in 0.011279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee6f9a93589a4a8aa546ffaa86ad45f') in 0.004478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.902757 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_(1).PNG
+  artifactKey: Guid(2f60676c0df5e9946b24233b6a6585a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_(1).PNG using Guid(2f60676c0df5e9946b24233b6a6585a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e4179fb56149727642ed04eec52a1f') in 0.028825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039811 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_Sreenshotes(1).PNG
+  artifactKey: Guid(9bc9a7311032c0343aebfb4b0bcddc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_Sreenshotes(1).PNG using Guid(9bc9a7311032c0343aebfb4b0bcddc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2e4ce4beea27ba69ba7767f9f03ce8') in 0.008147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025394 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_image.PNG
+  artifactKey: Guid(e782417e442afb24f83aea96359284c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_image.PNG using Guid(e782417e442afb24f83aea96359284c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d4f0782ba5aae60998920766255050') in 0.008818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036145 seconds.
+  path: Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_Sreenshotes.PNG
+  artifactKey: Guid(f94cd28ea79e69244b1879e368fb6485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Demo/Demo_Scene/Low_Poly_Boat_yard_Sreenshotes.PNG using Guid(f94cd28ea79e69244b1879e368fb6485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a76762e4ff18860178a3d95057ffb7') in 0.009163 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.1 KB). Loaded Objects now: 3510.
+Memory consumption went from 47.1 MB to 47.0 MB.
+Total: 5.432200 ms (FindLiveObjects: 0.611700 ms CreateObjectMapping: 0.251900 ms MarkObjects: 4.478200 ms  DeleteObjects: 0.089700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.472328 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Materials/BarriersMain_M.mat
+  artifactKey: Guid(a1f48d7877435ff459de07b08955ed80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Materials/BarriersMain_M.mat using Guid(a1f48d7877435ff459de07b08955ed80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5619584ab1b4bf1dff04c614129c4a0d') in 0.010163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyBarriersPackFree/BonusAssets
+  artifactKey: Guid(527a07da3bcbf4f47b90696c292dbf15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BonusAssets using Guid(527a07da3bcbf4f47b90696c292dbf15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '799c2e57032663d03da8bf1355191291') in 0.007149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/SandBagBarriers/SandBagWall_04_v2.fbx
+  artifactKey: Guid(acaa2cb72d6476343a1047da3cddfddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/SandBagBarriers/SandBagWall_04_v2.fbx using Guid(acaa2cb72d6476343a1047da3cddfddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'addbf6810fb504eff153c28992e1df6a') in 0.017539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/BarbedWireBarriers/WoodenBarbedWireBarrier_33_v1.fbx
+  artifactKey: Guid(4c6c192b35c498f4c8ce6240df182c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/BarbedWireBarriers/WoodenBarbedWireBarrier_33_v1.fbx using Guid(4c6c192b35c498f4c8ce6240df182c1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '773f5c0eec87139aa170d1527234e118') in 0.017689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenPlankBarrier_14_v1.prefab
+  artifactKey: Guid(3318a0dcc90627d4394e56a36f632ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenPlankBarrier_14_v1.prefab using Guid(3318a0dcc90627d4394e56a36f632ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a58bacff27e22de07f6a88ebaac12d19') in 0.011377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarrier_09_v1.fbx
+  artifactKey: Guid(c15c8257712a538499f0877d29e23f41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarrier_09_v1.fbx using Guid(c15c8257712a538499f0877d29e23f41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f5d7540c3e8790451aa8e9bf30e0e03') in 0.017321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrier_09_v1.prefab
+  artifactKey: Guid(4d77b47f753caf24493215b264f25ad6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrier_09_v1.prefab using Guid(4d77b47f753caf24493215b264f25ad6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c23297ade1316c8d9f0cd9a60a59c08') in 0.010397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/READ_ME/LowPolyBarriersPackDocumentation.pdf
+  artifactKey: Guid(e32c84a20e3f89544974ecd357cf9a46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/READ_ME/LowPolyBarriersPackDocumentation.pdf using Guid(e32c84a20e3f89544974ecd357cf9a46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c761f7ece35b2dababb474603ec1493b') in 0.008117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Textures/BarriersMainTexture.png
+  artifactKey: Guid(4173481d788a86b428367628bc9ebb68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Textures/BarriersMainTexture.png using Guid(4173481d788a86b428367628bc9ebb68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a25c62370f5e6c1771fcdf3ee4c3919') in 0.015447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleLog_09_v1.prefab
+  artifactKey: Guid(c61730e7e4ed08945ac03d38e89efc05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleLog_09_v1.prefab using Guid(c61730e7e4ed08945ac03d38e89efc05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f73c96aa144efed4f346152aab723a0') in 0.010492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers/ConcreteBarrier_05_v1.fbx
+  artifactKey: Guid(b502c2e695eb5154a9fe0013a6b96d5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers/ConcreteBarrier_05_v1.fbx using Guid(b502c2e695eb5154a9fe0013a6b96d5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '057c5a473009f00b85612c20f9e3db3b') in 0.017339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_29_v3.prefab
+  artifactKey: Guid(f5b099e6487383d4f8661e894b5d3f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_29_v3.prefab using Guid(f5b099e6487383d4f8661e894b5d3f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02e10a6c54987cbf4eac4d0a349e1cf0') in 0.009916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers
+  artifactKey: Guid(6313aff9936c8234d94dd88db0562999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers using Guid(6313aff9936c8234d94dd88db0562999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acc8eb9d8194617f177099749883ba70') in 0.005782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/SandBagBarriers
+  artifactKey: Guid(9876905b85148f044a2e97944fc8dc79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/SandBagBarriers using Guid(9876905b85148f044a2e97944fc8dc79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69249a39dce5279994422f76130fbca5') in 0.007183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/BarbedWireBarriers/BarbedWireMetalFence_26_v1.fbx
+  artifactKey: Guid(37cd9370d8110e74b9ccfd97123169d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/BarbedWireBarriers/BarbedWireMetalFence_26_v1.fbx using Guid(37cd9370d8110e74b9ccfd97123169d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71a733a50e375aa399fb54b20c07f4dd') in 0.018053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyBarriersPackFree/BonusAssets/Materials/Floor_M.mat
+  artifactKey: Guid(9ee2d30a428d7bf41bfe4bdb4e6e659b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BonusAssets/Materials/Floor_M.mat using Guid(9ee2d30a428d7bf41bfe4bdb4e6e659b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22057b46c10bb96dca476c11d9deee4f') in 0.008538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBagWall_04_v2.prefab
+  artifactKey: Guid(54d8b5f898d226149905f2836c474e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBagWall_04_v2.prefab using Guid(54d8b5f898d226149905f2836c474e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '682bf8542ac6ec2e228640b656ef736a') in 0.009677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BonusAssets/Materials
+  artifactKey: Guid(0bbd410553883b34798c6bda0faf1e2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BonusAssets/Materials using Guid(0bbd410553883b34798c6bda0faf1e2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '439a72cad4e46cc14e5725825b3f901c') in 0.005903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/MetalBarriers
+  artifactKey: Guid(b0b5f40db3bb2bb42bfa0e72fbdcfe91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/MetalBarriers using Guid(b0b5f40db3bb2bb42bfa0e72fbdcfe91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0308dfc1ea85c75a4ee7f940836460e8') in 0.006302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenPlankBarrier_14_v1.fbx
+  artifactKey: Guid(e4b3197345ef47c458a394eb7af96edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenPlankBarrier_14_v1.fbx using Guid(e4b3197345ef47c458a394eb7af96edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fd9045a6f073b29e0391fadfffd5851') in 0.017751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/BonusAssets/PostProcess Settings
+  artifactKey: Guid(94046ef030bda2642ad8e803a95cabc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BonusAssets/PostProcess Settings using Guid(94046ef030bda2642ad8e803a95cabc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '782bed53f805f4745471bc9e9b9e6ab9') in 0.005983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers
+  artifactKey: Guid(c2458e78c9fcc8c4ea2cee9e21143c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers using Guid(c2458e78c9fcc8c4ea2cee9e21143c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e65b695dce8c81d4e9e7805e3a736d0c') in 0.005908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/Demo
+  artifactKey: Guid(4a9e11b376d930845866dc8030a38092) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/Demo using Guid(4a9e11b376d930845866dc8030a38092) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '847b014ed2cdad7e0e9c39c1e8afceb2') in 0.005918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_08_v2.prefab
+  artifactKey: Guid(ce48558ac6f7fbb498a1a5a73755bc9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_08_v2.prefab using Guid(ce48558ac6f7fbb498a1a5a73755bc9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce146597729bb8b53f98c212229be0c6') in 0.009900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BonusAssets/PostProcess Settings/PP_Demo_Scene.asset
+  artifactKey: Guid(3b62728f241644f46b054d335d406b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BonusAssets/PostProcess Settings/PP_Demo_Scene.asset using Guid(3b62728f241644f46b054d335d406b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'faf4f9aadd9ef13b330f5095d46d2d4a') in 0.007639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree
+  artifactKey: Guid(6dd3909ce42fbd146903110d4457a173) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree using Guid(6dd3909ce42fbd146903110d4457a173) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67b23d240b78680ba667a7c7fedf692e') in 0.006622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/BarbedWireBarriers
+  artifactKey: Guid(4f8bc48f5b01b2f4897a42b256ca142a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/BarbedWireBarriers using Guid(4f8bc48f5b01b2f4897a42b256ca142a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42ac849c6599a5f6ce8d6b0e25116139') in 0.007053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers/ConcreteBarrier_39_v2.fbx
+  artifactKey: Guid(753390768a582b245a75ac71dcc16ab6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers/ConcreteBarrier_39_v2.fbx using Guid(753390768a582b245a75ac71dcc16ab6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b0542f91e4137eac921c7f2ee5be1fc') in 0.017558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleSmallLog_12_v2.prefab
+  artifactKey: Guid(cc63051a86d7809439fa2c77c482e68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleSmallLog_12_v2.prefab using Guid(cc63051a86d7809439fa2c77c482e68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89bfd2bce34f9f9908cbb1b9c3c8b0af') in 0.009652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_05_v1.prefab
+  artifactKey: Guid(40b46e1d91f880f45981175d9b4d1af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_05_v1.prefab using Guid(40b46e1d91f880f45981175d9b4d1af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed12bafb3a192cd1ee22052d4bd829cf') in 0.010145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/MetalBarriers/MetalFence_23_v1.fbx
+  artifactKey: Guid(c9c5970fb22921b4ea495bc9e1600c21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/MetalBarriers/MetalFence_23_v1.fbx using Guid(c9c5970fb22921b4ea495bc9e1600c21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd44c187944f0a887f91f3d12a4082ecd') in 0.016441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers
+  artifactKey: Guid(6da181d55ef5a2443ac4b1df570bdfbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers using Guid(6da181d55ef5a2443ac4b1df570bdfbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4767ca5cef55a134c60dffef75a5b1c') in 0.006511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/Demo/BarriersPackAllAssets.unity
+  artifactKey: Guid(9b42436cdbd264c41af1d83feba620cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/Demo/BarriersPackAllAssets.unity using Guid(9b42436cdbd264c41af1d83feba620cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89766a453186f759bfea8795ec379a5f') in 0.006470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/READ_ME
+  artifactKey: Guid(0525c5c8aaef4f44a8772feb7fca42d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/READ_ME using Guid(0525c5c8aaef4f44a8772feb7fca42d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b3c7e8e9fa31a8dee363e939d4d1e4b') in 0.005845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers/ConcreteBarrier_08_v2.fbx
+  artifactKey: Guid(cf7fa84b14c72e240896775ab71035e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers/ConcreteBarrier_08_v2.fbx using Guid(cf7fa84b14c72e240896775ab71035e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf261061f1b1dec14e4fa7b942236df7') in 0.016505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers
+  artifactKey: Guid(0c0afcfcb639c8f478aac550be5a396a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers using Guid(0c0afcfcb639c8f478aac550be5a396a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac0bbb1f96481583fc76d39d67836684') in 0.006290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Materials
+  artifactKey: Guid(3bd3f3403103d60469807b0fff61825b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Materials using Guid(3bd3f3403103d60469807b0fff61825b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1993e041edb8fdb159259eb2edefede') in 0.005577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs
+  artifactKey: Guid(fe9a4f251de7c0e45a24b6aad38e9264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs using Guid(fe9a4f251de7c0e45a24b6aad38e9264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c375cda51ebe614b69f764f92fb0dc3') in 0.006139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers
+  artifactKey: Guid(46019d08a523ba44bb92b4f9d6ba7f65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers using Guid(46019d08a523ba44bb92b4f9d6ba7f65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6d48eef2a280eb12fa0e562b09e66f3') in 0.006195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes
+  artifactKey: Guid(25fa92e078b03e947988ac6a79dc7b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes using Guid(25fa92e078b03e947988ac6a79dc7b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24bf0e4558ef4a629757acaa26886deb') in 0.006856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts
+  artifactKey: Guid(190e9fac903b74f47b669b6c2b32835e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts using Guid(190e9fac903b74f47b669b6c2b32835e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '738722b23fb27bc532349e3b48b08305') in 0.006057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets
+  artifactKey: Guid(0b8ec16315b085444a9364ec08d376a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets using Guid(0b8ec16315b085444a9364ec08d376a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da9b60a236495d991259c255ff38a310') in 0.006379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/BarbedWireBarriers/BarbedWireFence_36_v1.fbx
+  artifactKey: Guid(d38fc9b79f129384393a749bf10126ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/BarbedWireBarriers/BarbedWireFence_36_v1.fbx using Guid(d38fc9b79f129384393a749bf10126ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23e10c3e218980a3cef5bf0f739abe40') in 0.018000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarriersParts/SingleLog_09_v1.fbx
+  artifactKey: Guid(f0124d1dd9b7df940a67593dc0d7a564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarriersParts/SingleLog_09_v1.fbx using Guid(f0124d1dd9b7df940a67593dc0d7a564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd868d3c05fe301a0f0c72bf736115d57') in 0.017224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/SandBagBarriers/SandBagPallet_16_v3.fbx
+  artifactKey: Guid(c4fcb28b999650e46b63c3a3e988bcdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/SandBagBarriers/SandBagPallet_16_v3.fbx using Guid(c4fcb28b999650e46b63c3a3e988bcdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa8a2cdce4b36005b419fb68efe7a654') in 0.017367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers
+  artifactKey: Guid(edc8841c13da7e84181e5e6e11f6a785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers using Guid(edc8841c13da7e84181e5e6e11f6a785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0539ce6113d7885ac581743479d636b0') in 0.008395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarriersParts/SingleWoodenPlank_13_v1.fbx
+  artifactKey: Guid(5a74e734abafc5746b400fd54c47aa68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarriersParts/SingleWoodenPlank_13_v1.fbx using Guid(5a74e734abafc5746b400fd54c47aa68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a175b2d044050c8c706785fe31253573') in 0.017989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/BarbedWireMetalFence_26_v1.prefab
+  artifactKey: Guid(4b3b356a77ccfe640a982b42b04ecd98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/BarbedWireMetalFence_26_v1.prefab using Guid(4b3b356a77ccfe640a982b42b04ecd98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a7940e83926fa41fc3115bdfaf9238b') in 0.010739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers
+  artifactKey: Guid(730d0339fd02af244b5a4ab699160e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers using Guid(730d0339fd02af244b5a4ab699160e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b523452be070110d29acb29a03334689') in 0.006171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Textures
+  artifactKey: Guid(c08c60385b9bab74c824e78dad4458f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Textures using Guid(c08c60385b9bab74c824e78dad4458f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dc9dc72fcc5656d0530c0580985e1dc') in 0.005796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/BarbedWireFence_36_v1.prefab
+  artifactKey: Guid(17ae22a8c221d254f84fbe0e68ed0705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/BarbedWireFence_36_v1.prefab using Guid(17ae22a8c221d254f84fbe0e68ed0705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c383dce54808c8bf87adf64ee23c98d4') in 0.010529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers/MetalBarrier_06_v2.prefab
+  artifactKey: Guid(afc561f13a5ea0346867dabaab718d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers/MetalBarrier_06_v2.prefab using Guid(afc561f13a5ea0346867dabaab718d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7625ce42b33bfe2ee8ff47ba944d751e') in 0.009812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBagPallet_16_v3.prefab
+  artifactKey: Guid(2e8e35039a5a5de429bb5ef87354e790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBagPallet_16_v3.prefab using Guid(2e8e35039a5a5de429bb5ef87354e790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd4d965333b9dbdce7397820c778bc85') in 0.009892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/SandBagBarriers/SandBarrier_28_v1.fbx
+  artifactKey: Guid(37737cbe47b83c4408bdd9976afc03bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/SandBagBarriers/SandBarrier_28_v1.fbx using Guid(37737cbe47b83c4408bdd9976afc03bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a75c7f4e1803758759886bc920d8408f') in 0.016808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers/ConcreteBarrier_29_v3.fbx
+  artifactKey: Guid(d676aab782303b64493f412658c04e72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/ConcreteBarriers/ConcreteBarrier_29_v3.fbx using Guid(d676aab782303b64493f412658c04e72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ebbfbf293c84c2e1081d24d8118413e') in 0.018271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarriersParts
+  artifactKey: Guid(d6f3f7a598e5259408a5fb48862b12dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarriersParts using Guid(d6f3f7a598e5259408a5fb48862b12dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '007f1ede3359daca26684d316d4e3e0f') in 0.005993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_39_v2.prefab
+  artifactKey: Guid(70c48be8697ff6140812ee8d2eccd1ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_39_v2.prefab using Guid(70c48be8697ff6140812ee8d2eccd1ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '597cd82db488b0f0b8d89388f6ac7656') in 0.009489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/MetalBarriers/MetalBarrier_06_v2.fbx
+  artifactKey: Guid(241a323ff55292a4eabfe8e6db2efc40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/MetalBarriers/MetalBarrier_06_v2.fbx using Guid(241a323ff55292a4eabfe8e6db2efc40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d3ef7360c9da8b60bf9b79414f4809f') in 0.017125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarriersParts/SingleSmallLog_12_v2.fbx
+  artifactKey: Guid(bff4be5fed6eb0c45b648a0a15163a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Meshes/WoodenBarriers/WoodenBarriersParts/SingleSmallLog_12_v2.fbx using Guid(bff4be5fed6eb0c45b648a0a15163a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '075cfdff8118a33075ef4908524040a9') in 0.017891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBarrier_28_v1.prefab
+  artifactKey: Guid(0371f61bcdd2799478720637ee746b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBarrier_28_v1.prefab using Guid(0371f61bcdd2799478720637ee746b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7be53fe52d996c098a665b4642ded3ae') in 0.010017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers/MetalFence_23_v1.prefab
+  artifactKey: Guid(7ceee308f3489324f8ecc87b4b80740c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers/MetalFence_23_v1.prefab using Guid(7ceee308f3489324f8ecc87b4b80740c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d8c845d10a8feeefe5697acbfbd5f0e') in 0.012174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/WoodenBarbedWireBarrier_33_v1.prefab
+  artifactKey: Guid(b4b7339fb3082864b8444ec917d80cf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/WoodenBarbedWireBarrier_33_v1.prefab using Guid(b4b7339fb3082864b8444ec917d80cf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '642114bf1e08ed347853921cb319970f') in 0.011074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleWoodenPlank_13_v1.prefab
+  artifactKey: Guid(55e1f79d8a468b24ab8480140b8e8a57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleWoodenPlank_13_v1.prefab using Guid(55e1f79d8a468b24ab8480140b8e8a57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '705944dd369cbb4c3360f338b8eb5aab') in 0.009371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.965444 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.005105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.119016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/BarbedWireFence_36_v1.prefab
+  artifactKey: Guid(17ae22a8c221d254f84fbe0e68ed0705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/BarbedWireFence_36_v1.prefab using Guid(17ae22a8c221d254f84fbe0e68ed0705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efef11d65466abf72e7aa9a758e49cf') in 0.052684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleWoodenPlank_13_v1.prefab
+  artifactKey: Guid(55e1f79d8a468b24ab8480140b8e8a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleWoodenPlank_13_v1.prefab using Guid(55e1f79d8a468b24ab8480140b8e8a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eb0133b03f66afafaaad679858c77d') in 0.010488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_05_v1.prefab
+  artifactKey: Guid(40b46e1d91f880f45981175d9b4d1af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_05_v1.prefab using Guid(40b46e1d91f880f45981175d9b4d1af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73589852440fb84b377e1492ced7dcf') in 0.010459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_39_v2.prefab
+  artifactKey: Guid(70c48be8697ff6140812ee8d2eccd1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_39_v2.prefab using Guid(70c48be8697ff6140812ee8d2eccd1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2896bc02544670148c4909ff3a45f9') in 0.011010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers/MetalFence_23_v1.prefab
+  artifactKey: Guid(7ceee308f3489324f8ecc87b4b80740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers/MetalFence_23_v1.prefab using Guid(7ceee308f3489324f8ecc87b4b80740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f2067f416e5e6d807a97688398c25f') in 0.010152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_08_v2.prefab
+  artifactKey: Guid(ce48558ac6f7fbb498a1a5a73755bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_08_v2.prefab using Guid(ce48558ac6f7fbb498a1a5a73755bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3b0ae7952bdac29021e0742d0b3e60') in 0.010778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBagPallet_16_v3.prefab
+  artifactKey: Guid(2e8e35039a5a5de429bb5ef87354e790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBagPallet_16_v3.prefab using Guid(2e8e35039a5a5de429bb5ef87354e790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5371927b64855bc698c2ef4c6ab50d1') in 0.011021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrier_09_v1.prefab
+  artifactKey: Guid(4d77b47f753caf24493215b264f25ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrier_09_v1.prefab using Guid(4d77b47f753caf24493215b264f25ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca1b58f0d10ac6562fd25af85c4171f') in 0.009906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/WoodenBarbedWireBarrier_33_v1.prefab
+  artifactKey: Guid(b4b7339fb3082864b8444ec917d80cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/WoodenBarbedWireBarrier_33_v1.prefab using Guid(b4b7339fb3082864b8444ec917d80cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9349b6f623500ee2009e17ba35031a3f') in 0.010342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/BarbedWireMetalFence_26_v1.prefab
+  artifactKey: Guid(4b3b356a77ccfe640a982b42b04ecd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/BarbedWireBarriers/BarbedWireMetalFence_26_v1.prefab using Guid(4b3b356a77ccfe640a982b42b04ecd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195cbd8d7914bedb44e6da83031ca722') in 0.010650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleSmallLog_12_v2.prefab
+  artifactKey: Guid(cc63051a86d7809439fa2c77c482e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleSmallLog_12_v2.prefab using Guid(cc63051a86d7809439fa2c77c482e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3509941a9149281ad0487a68d10ded29') in 0.010154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenPlankBarrier_14_v1.prefab
+  artifactKey: Guid(3318a0dcc90627d4394e56a36f632ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenPlankBarrier_14_v1.prefab using Guid(3318a0dcc90627d4394e56a36f632ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f62717846f162e63a6478d3097146c1') in 0.009800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleLog_09_v1.prefab
+  artifactKey: Guid(c61730e7e4ed08945ac03d38e89efc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/WoodenBarriers/WoodenBarrierParts/SingleLog_09_v1.prefab using Guid(c61730e7e4ed08945ac03d38e89efc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc94860761186f082861bf71601abc1') in 0.009783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers/MetalBarrier_06_v2.prefab
+  artifactKey: Guid(afc561f13a5ea0346867dabaab718d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/MetalBarriers/MetalBarrier_06_v2.prefab using Guid(afc561f13a5ea0346867dabaab718d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1662847afa11f4b0a9cf2ba805d05be') in 0.010107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_29_v3.prefab
+  artifactKey: Guid(f5b099e6487383d4f8661e894b5d3f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/ConcreteBarriers/ConcreteBarrier_29_v3.prefab using Guid(f5b099e6487383d4f8661e894b5d3f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec020e4e68f627459613eb8831a43b9') in 0.009472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBagWall_04_v2.prefab
+  artifactKey: Guid(54d8b5f898d226149905f2836c474e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBagWall_04_v2.prefab using Guid(54d8b5f898d226149905f2836c474e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103ec70d646ee5d2e3231cf4e2cf2db5') in 0.010131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBarrier_28_v1.prefab
+  artifactKey: Guid(0371f61bcdd2799478720637ee746b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree/BarriersAssets/Prefabs/SandBagBarriers/SandBarrier_28_v1.prefab using Guid(0371f61bcdd2799478720637ee746b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f481c01e50b6134180da3e8cffce244e') in 0.010154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 596.675625 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34a838dad08785c2601054699ae3e5c5') in 0.006738 seconds 
