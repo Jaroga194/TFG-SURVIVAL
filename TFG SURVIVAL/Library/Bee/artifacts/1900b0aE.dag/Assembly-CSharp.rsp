@@ -373,6 +373,7 @@
 "Assets/Scripts/Player/PlayerHealth.cs"
 "Assets/Scripts/Player/PlayerInputPC.cs"
 "Assets/Scripts/Player/PlayerInputTouch.cs"
+"Assets/Scripts/Player/Playermove.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/Player/PlayerSelect.cs"
 "Assets/Scripts/UI/Countdown.cs"

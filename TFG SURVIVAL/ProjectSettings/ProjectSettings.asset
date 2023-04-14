@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 24
-  productGUID: af17d0ec575ade040b4e03cf33b527d6
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -622,7 +622,7 @@ PlayerSettings:
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   additionalCompilerArguments: {}
   platformArchitecture:
-    iPhone: 1
+    iPhone: 0
   scriptingBackend:
     Android: 0
     Standalone: 0
